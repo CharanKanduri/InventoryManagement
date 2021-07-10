@@ -15,7 +15,7 @@ namespace InventoryManagement
             InventoryItems items = new InventoryItems();
             items = JsonConvert.DeserializeObject<InventoryItems>(File.ReadAllText(fileName));
 
-            DisplayInventory show = new DisplayInventory();
+           
             DisplayInventory manage = new DisplayInventory();
 
             Console.WriteLine("select inventory Press \n1 - Rice Inventory \n2 - Wheat Inventory \n3 - Pulse Inventory ");
